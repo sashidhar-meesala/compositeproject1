@@ -1,0 +1,50 @@
+.destinations{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+/*for tablet
+@media screen and (max-width: 768px) and (min-width: 501px) {
+  .destinations{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+*/
+
+
+
+/*formobile*/
+@media screen and (max-width:742px){
+  .destinations{
+    
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/*for tablet*/
+
+@media screen and (min-width:743px) and (max-width:1127){
+    .destinations{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*for desktop*/
+@media screen and (min-width:1128px) and (max-width:1438px){
+    .destinations{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+/*for mac*/
+
+@media screen and (min-width:14398px) {
+    .destinations{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
