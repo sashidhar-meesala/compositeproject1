@@ -8,10 +8,11 @@ h1,h2,h3,h4,h5{
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.headerclass{
-  display:grid;
-  grid-template-columns: 1fr 6fr 1fr 1fr 1fr 1fr 1fr;
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
 
 .options{
   display: gird;
@@ -23,7 +24,9 @@ h1,h2,h3,h4,h5{
   margin: 2rem 0 0 4rem;
 
 }
-
+.w3-center{
+  margin-top:0.5rem;
+}
 .marquee {
   margin: 0 0 0 4 rem;
   width: 100%;
