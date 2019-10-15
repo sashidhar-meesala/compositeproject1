@@ -99,7 +99,7 @@ li a {
     grid-column-gap: 0.2rem;
     grid-row-gap: 0.2rem;
     padding: 0 80px;
-    border-radius: 10%;
+    border-radius: 10% !important;
     
     
     
