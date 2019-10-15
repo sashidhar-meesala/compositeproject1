@@ -1,5 +1,6 @@
 html{
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   background-color:white;
@@ -7,10 +8,16 @@ body {
 
 }
 
+
 h1,h2,h3,h4,h5,p{
   font-family: 'Roboto', sans-serif;;
 }
 
+.logo{
+  font-size: 4rem;
+  padding-right: 20%;
+  text-align: center;
+}
 
 .nav{
   text-align: center;
@@ -92,6 +99,7 @@ li a {
     grid-column-gap: 0.2rem;
     grid-row-gap: 0.2rem;
     padding: 0 80px;
+    border-radius: 10%;
     
     
     
@@ -112,7 +120,7 @@ li a {
 .destination_x{
   background-color:white;
   margin: 1rem 1rem;
-  
+  border-radius: 10%;
   box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1);
   border: 0.2em solid burlywood;
 } 
@@ -156,13 +164,7 @@ border: 0.2em solid #a0f1e9;
   padding: 0.5rem;
   margin-left: 40%;
 }
-/*formobile*/
-@media screen and (max-width:742px){
-  .destinations{
-    grid-template-columns: 1fr;
-  }
 
-}
 
 .btn {
   background-color: #4CAF50; /* Green */
@@ -206,7 +208,7 @@ border: 0.2em solid #a0f1e9;
 .images{
     /*background-image: cover;*/
     max-width: 94%;
-    /*border: 1px solid #ddd; /* Gray border */
+    border-radius: 14px;
     padding: 0.4rem;
  
 }
@@ -247,3 +249,23 @@ img:hover {
     }
 }
 
+/*formobile*/
+@media screen and (max-width:742px){
+  .destinations {
+    grid-template-columns: 1fr;
+  }
+
+  .box_info{
+    grid-template-columns: 4fr;
+  }
+
+  .footer{
+    grid-template-columns: 1fr;
+  }
+  
+  .icons{
+     font-size: 2rem;
+     padding-right: 40%;
+  }
+
+}
