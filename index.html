@@ -10,36 +10,37 @@
     <link rel="stylesheet" href="CSS/stylesheet.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 
 
 <body>
     
-    </div>
     <div>
+        <header>
             <div class="nav">
                 <div class="icons">
-                            <i class="fab fa-airbnb"></i>
+                    <i class="fab fa-airbnb"></i>
                 </div>
-                    
-                    
-                    <div>
-                        <input type="text" class="searchbar" style="width:40%" placeholder="Australia .Stays">
-                    </div>
-                    <div>
+                <div class="nav">
                     <ul>
                         </li>
-                        <li><a class="active" href="#becomeahost">Become a Host</a></li>
-                        <li><a href="#contact">Help</a></li>
-                        <li><a href="#Sign Up">Sign Up</a></li>
-                        <li><a href="#Sign in">Sign In</a></li>
-                    
-                    
+                        <li><a href="#">Host a Home</a></li>
+                        <li><a href="#">Host an Experience</a></li>
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Sign In</a></li>
                     </ul>
-                    </div>
-
                 </div>
+            </div>
+        </header>
+
+        
+                
             
             <div class="w3-center">
             <div class="w3-bar">
@@ -70,14 +71,15 @@
                     <p> Modern Branyan Guest Villa - Minutes to Airport</p>
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
+                            <span class="blinking">On Sale!!</span>
                             <img src="" alt="">
-                    
-                            <div class="w3-center">
-                                <div class="w3-bar">
-                                    <button class="w3-button w3-round-large w3-green" id="id1" type="button" >Book Now!</button>
-                                    <button class="w3-button w3-round-large w3-green" type="button" >Live Status</button>
-                                </div>
-                            </div>
+                            <div>
+                            <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                            <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus" type="button" >Live Status</button>
+                            </div>      
+
+                                       
+                               
                     
                 </div>
                 <div>
@@ -94,12 +96,10 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
-                            <div class="w3-center">
-                                    <div class="w3-bar">
-                                        <button class="w3-button w3-round-large w3-green" id="id1" type="button" >Book Now!</button>
-                                        <button class="w3-button w3-round-large w3-green" type="button" >Live Status</button>
-                                    </div>
-                                </div>
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus2" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -115,12 +115,10 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
-                            <div class="w3-center">
-                                    <div class="w3-bar">
-                                        <button class="w3-button w3-round-large w3-green" id="id1" type="button" >Book Now!</button>
-                                        <button class="w3-button w3-round-large w3-green" type="button" >Live Status</button>
-                                    </div>
-                                </div>
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -136,13 +134,12 @@
                     <p> Modern Branyan Guest Villa - Minutes to Airport</p>
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
+                            <span class="blinking">On Sale!!</span>
                             <img src="" alt="">
-                            <div class="w3-center">
-                                    <div class="w3-bar">
-                                        <button class="w3-button w3-round-large w3-green" id="id1" type="button" >Book Now!</button>
-                                        <button class="w3-button w3-round-large w3-green" type="button" >Live Status</button>
-                                    </div>
-                                </div>
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus2" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -159,6 +156,10 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -174,7 +175,12 @@
                     <p> Modern Branyan Guest Villa - Minutes to Airport</p>
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
+                            <span class="blinking">On Sale!!</span>
                             <img src="" alt="">
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                            <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus2" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -191,6 +197,10 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -206,6 +216,10 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus2" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -221,6 +235,10 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -235,7 +253,12 @@
                     <p> Modern Branyan Guest Villa - Minutes to Airport</p>
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
+                            <span class="blinking">On Sale!!</span>
                             <img src="" alt="">
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus2" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -252,6 +275,9 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
+                            <div><button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -268,6 +294,10 @@
                     <p>$90 CAD/night.</p>
                     <p> Price:$100 CAD total<p>
                             <img src="" alt="">
+                            <div>
+                                    <button class="btn book_btn" data-toggle="modal" data-target="#booknow" type="button" >Book Now</button>
+                                    <button class="btn live_btn" data-toggle="modal" data-target="#Livestatus2" type="button" >Live Status</button>
+                                    </div>   
                 </div>
                 <div>
     
@@ -312,7 +342,60 @@
         </div>
     </div>
 
+   <!-- Modal -->
+   <div class="modal fade" id="Livestatus" role="dialog">
+        <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Live status of the Rental</h4>
+            </div>
+            <div class="modal-body">
+            <p>Currently there are 4 villas left</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Livestatus2" role="dialog">
+            <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Live status of the Rental</h4>
+                </div>
+                <div class="modal-body">
+                <p>Currently there are 8 apartments left</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="booknow" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Booking confirmation</h4>
+                </div>
+                <div class="modal-body">
+                <p>Thank you for booking!.. we will send you the confirmation to your email. Have a nice day!</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    
 
 </body>
 
