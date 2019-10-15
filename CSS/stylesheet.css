@@ -202,7 +202,7 @@ border: 0.2em solid #a0f1e9;
 .images{
     /*background-image: cover;*/
     max-width: 94%;
-    border-radius: 14px;
+    border-radius: 20px;
     padding: 0.4rem;
  
 }
@@ -262,4 +262,5 @@ img:hover {
      padding-right: 40%;
   }
 
+  
 }
