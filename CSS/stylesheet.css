@@ -63,7 +63,7 @@ li a {
   margin: 0 0 0 4 rem;
   width: 100%;
   line-height: 30px;
-  background-color:#f1f1f1;
+  background-color:#c7f1ed;
   white-space: nowrap;
   overflow: hidden;
   box-sizing: border-box;
@@ -112,8 +112,9 @@ li a {
 .destination_x{
   background-color:white;
   margin: 1rem 1rem;
-  border: 0.2em solid #a0f1e9;
-  box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1)
+  
+  box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1);
+  border: 0.2em solid burlywood;
 } 
 
 .content_x{
