@@ -11,10 +11,9 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Roboto', sans-serif;;
 }
 
+
 .nav{
   text-align: center;
- 
-  
 }
 
 .nav ul {
@@ -22,17 +21,15 @@ h1,h2,h3,h4,h5,p{
   margin-bottom: 1rem;;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  border: 0.2em solid #6a6b6d;
-  
+  background-color:#009688;
+  border: 0.2em solid burlywood;
+  text-align: center
 }
 
 .nav li {
   display: inline-block;
   padding:0.5rem;
-  font-size: 1rem;
-  margin-left: 3rem;
-  
+  font-size: 1.6rem;
   
 }
 
@@ -44,9 +41,10 @@ li a {
   text-decoration: none;
 }
 
-.nav-items li a:hover {
-  background-color:rgb(121, 116, 116);
- 
+.nav li a:hover {
+  background-color:white;
+  color: black;
+  text-decoration: none;
 }
 
 .options{
@@ -73,6 +71,7 @@ li a {
 }
 .marquee p {
   display: inline-block;
+  background-color: #c7f1ed;
   padding-left:  100%;
   animation: marquee 15s linear infinite;
 }
@@ -92,7 +91,7 @@ li a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 0.2rem;
     grid-row-gap: 0.2rem;
-    padding: 0 50px;
+    padding: 0 80px;
     
     
     
@@ -113,19 +112,24 @@ li a {
 .destination_x{
   background-color:white;
   margin: 1rem 1rem;
-  border: 0.2em solid #92e8f3e1;
+  border: 0.2em solid #a0f1e9;
   box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1)
 } 
 
 .content_x{
-  padding:0.45rem;
+  padding:0.6rem;
+  margin: 1rem;
   
 }
  
 .box_info{
 display: grid;
 grid-template-columns:4fr 4fr;
-padding:2 rem;
+
+margin: 2rem;
+border: 0.2em solid #a0f1e9;
+  box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1)
+
 }
 
 
@@ -140,14 +144,14 @@ padding:2 rem;
 .footer{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: black;
+  background-color: #009688;
   color: white;
   text-align: center;
   padding-top: 1.5 rem;
       
   }
 .icons{
-  font-size: 2rem;
+  font-size: 4rem;
   padding: 0.5rem;
   margin-left: 40%;
 }
@@ -161,7 +165,7 @@ padding:2 rem;
 
 .btn {
   background-color: #4CAF50; /* Green */
-  border: 1px solid;
+  border: 0.2em solid burlywood !important;
   color: white;
   padding: 16px 32px;
   text-align: center;
@@ -171,11 +175,12 @@ padding:2 rem;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border-radius: 18px;
 }
 
 
 .live_btn {
-  background-color: rgb(35, 201, 76); 
+  background-color: #009688; 
   color: black; 
   border: 2px solid rgb(35, 201, 76);
 }
@@ -186,7 +191,7 @@ padding:2 rem;
 }
 
 .book_btn {
-  background-color: rgb(35, 201, 76); 
+  background-color:#009688; 
   color: black; 
   border: 2px solid rgb(35, 201, 76);
 }
@@ -208,14 +213,12 @@ padding:2 rem;
 /* Add a hover effect (blue shadow) */
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 14, 19, 0.5);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
-.test{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-     margin: 2rem 4rem;
-  }
-  
+
+.box_info2{
+  margin-top:15%;
+}
   
 
 
