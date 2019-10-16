@@ -54,6 +54,28 @@ li a {
   text-decoration: none;
 }
 
+.filters{
+  background-color: rgb(255, 254, 254);
+  width: 100%;
+  text-align: center;
+}
+
+.button{
+  background-color: #009688; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  
+}
+
+.button
 .options{
   display: gird;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
@@ -99,7 +121,7 @@ li a {
     grid-column-gap: 0.2rem;
     grid-row-gap: 0.2rem;
     padding: 0 80px;
-    border-radius: 10%;
+    border-radius: 8%;
       
 }
 
@@ -116,11 +138,12 @@ li a {
 }
 
 .destination_x{
-  background-color:white;
+  background-color:rgb(252, 252, 252);
   margin: 1rem 1rem;
   border-radius: 10%;
-  box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1);
+  box-shadow:0 0 8px 8px rgba(56, 121, 241, 0.1);
   border: 0.2em solid burlywood;
+  text-align: center;
 } 
 
 .content_x{
@@ -236,12 +259,13 @@ img:hover {
 
     
 }
-
+/*
 @media screen and (max-width:500px) {
     .destinations{
         grid-template-columns: 1fr;
     }
 }
+*/
 
 /*formobile*/
 @media screen and (max-width:742px){
@@ -251,10 +275,11 @@ img:hover {
 
   .box_info{
     grid-template-columns: 4fr;
+    padding: 1rem;
   }
 
   .footer{
-    grid-template-columns: 1fr;
+    grid-template-columns: 4fr;
   }
   
   .icons{
@@ -262,5 +287,24 @@ img:hover {
      padding-right: 40%;
   }
 
-  
+  .ul{
+    position: static;
+    display: none;
+  }
+
+  .li{
+    margin-bottom: 1px;
+  }
+
+  ul li, li a{
+    width: 100%;
+  }
+
+  .logo{
+    padding-left: 20%;
+  }
+
+  .filters{
+    display: none;
+  }
 }
