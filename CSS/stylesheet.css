@@ -75,7 +75,22 @@ li a {
   
 }
 
-.button
+.label{
+  background-color: #71807e; 
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width:40%;
+}
+
+
 .options{
   display: gird;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
@@ -125,24 +140,14 @@ li a {
       
 }
 
-.blinking{
-	animation:blinkingText 0.8s infinite;
-}
 
-@keyframes blinkingText{
-	0%{		color: #000;	}
-	49%{	color: transparent;	}
-	50%{	color: transparent;	}
-	99%{	color:red;	}
-	100%{	color:red;	}
-}
 
 .destination_x{
   background-color:rgb(252, 252, 252);
-  margin: 1rem 1rem;
-  border-radius: 10%;
+  margin: 2rem 1rem 1rem 1rem;
+  
   box-shadow:0 0 8px 8px rgba(56, 121, 241, 0.1);
-  border: 0.2em solid burlywood;
+  border: 0.06em solid burlywood;
   text-align: center;
 } 
 
@@ -157,7 +162,7 @@ display: grid;
 grid-template-columns:4fr 4fr;
 
 margin: 2rem;
-border: 0.2em solid #a0f1e9;
+border: 0.1em solid #a0f1e9;
   box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1)
 
 }
@@ -185,7 +190,7 @@ border: 0.2em solid #a0f1e9;
 
 .btn {
   background-color: #4CAF50; /* Green */
-  border: 0.2em solid burlywood !important;
+  border: 0.08em solid burlywood !important;
   color: white;
   padding: 16px 32px;
   text-align: center;
@@ -201,24 +206,24 @@ border: 0.2em solid #a0f1e9;
 
 .live_btn {
   background-color: #009688; 
-  color: black; 
+  color: white; 
   border: 2px solid rgb(35, 201, 76);
 }
 
 .live_btn:hover {
   background-color: #f44336;
-  color: white;
+  color: black;
 }
 
 .book_btn {
   background-color:#009688; 
-  color: black; 
+  color: white; 
   border: 2px solid rgb(35, 201, 76);
 }
 
 .book_btn:hover {
   background-color: #f44336;
-  color: white;
+  color: black;
 }
 
 
@@ -226,7 +231,7 @@ border: 0.2em solid #a0f1e9;
     /*background-image: cover;*/
     max-width: 94%;
     border-radius: 20px;
-    padding: 0.4rem;
+    padding-top: 1rem;
  
 }
 
