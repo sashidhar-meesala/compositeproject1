@@ -72,9 +72,11 @@ li a {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+
   
 }
 
+/* code for filter buttons */
 .label{
   background-color: #71807e; 
   border: none;
