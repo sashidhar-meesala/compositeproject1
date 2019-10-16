@@ -13,12 +13,14 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Roboto', sans-serif;;
 }
 
+/*Styling for the logo icon*/
 .logo{
   font-size: 4rem;
   padding-right: 20%;
   text-align: center;
 }
 
+/*Styling for the navigation bar*/
 .nav{
   text-align: center;
 }
@@ -47,18 +49,21 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/*styling for on hover of navigation buttons*/
 .nav li a:hover {
   background-color:white;
   color: black;
   text-decoration: none;
 }
 
+/*styling for filter option buttons*/
 .filters{
   background-color: rgb(255, 254, 254);
   width: 100%;
   text-align: center;
 }
+
+
 
 .button{
   background-color: #009688; 
@@ -100,10 +105,19 @@ li a {
   padding-left: 1rem;
   background-color: #f1f1f1;
 }
+
+
+/*Styling for places to stay heading*/
 .placestostsay{
-  margin: 2rem 0 0 4rem;
+  text-align: center;
+  width: 100%;
 
 }
+
+.func_button{
+margin:1rem;
+}
+
 /*
 .corner-ribbon{
   width: 200px;
@@ -158,6 +172,8 @@ li a {
 }
 */
 
+
+/*styling for the rental grid template and grid elements starts from here*/
 .container{
   margin: 0 4rem;
 }
@@ -188,40 +204,8 @@ li a {
 .content_x{
   padding:0.6rem;
   margin: 1rem;
-  
 }
- 
-.box_info{
-display: grid;
-grid-template-columns:4fr 4fr;
-
-margin: 2rem;
-border: 0.1em solid #a0f1e9;
-  box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1)
-
-}
-
-
-
-
-.footer{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #009688;
-  color: white;
-  text-align: center;
-  padding-top: 1.5 rem;
-      
-  }
-
-  
-.icons{
-  font-size: 4rem;
-  padding: 0.5rem;
-  margin-left: 40%;
-}
-
-
+/*Styling for the live status and book now buttons starts from  here*/
 .btn {
   background-color: #4CAF50; /* Green */
   border: 0.08em solid burlywood !important;
@@ -259,6 +243,41 @@ border: 0.1em solid #a0f1e9;
   background-color: #f44336;
   color: black;
 }
+ 
+
+/*styling for box under the gird*/
+.box_info{
+display: grid;
+grid-template-columns:4fr 4fr;
+
+margin: 2rem;
+border: 0.1em solid #a0f1e9;
+  box-shadow:0 0 5px 5px rgba(78, 129, 224, 0.1)
+
+}
+
+
+
+/*styling for the footer*/
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  padding-top: 1.5 rem;
+      
+  }
+
+/*styling for the icons*/
+.icons{
+  font-size: 4rem;
+  padding: 0.5rem;
+  margin-left: 40%;
+}
+
+
+
 
 
 .images{
@@ -279,7 +298,7 @@ img:hover {
   margin-top:15%;
 }
   
-
+/*MEDIA QUERIES */
 
 /*for tablet*/
 
