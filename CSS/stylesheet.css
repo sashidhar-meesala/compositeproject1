@@ -8,22 +8,16 @@ body {
 
 }
 
-.svg{
-  text-align:center;
-  display: block;
-  margin-top:2rem;
-  float: left;
-}
+
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Roboto', sans-serif;;
 }
 
 /*Styling for the logo icon*/
-.logo{
-  font-size: 4rem;
-  padding-right: 20%;
-  text-align: center;
+.airbnb{
+  width:46px;
+  height:46px;
 }
 
 /*Styling for the navigation bar*/
