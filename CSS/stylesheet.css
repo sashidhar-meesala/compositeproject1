@@ -8,6 +8,12 @@ body {
 
 }
 
+.svg{
+  text-align:center;
+  display: block;
+  margin-top:2rem;
+  float: left;
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Roboto', sans-serif;;
